@@ -1,0 +1,14 @@
+[package]
+name = "call_of_duty_warzone_multi"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+gtk = "0.9.0"
+rand = "0.8.5"
+log = "0.4"
+env_logger = "0.10"
+nalgebra = "0.29"
+
+[profile.release]
+opt-level = 3
